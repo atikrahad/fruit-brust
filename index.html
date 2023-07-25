@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AR Fruit Zone</title>
-</head>
-<body>
-    
-</body>
+
+    <!-- use tailwind and daisy apa -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- header section start------------- -->
+
+    <header>
+      <!-- navber section  -->
+
+      <nav class="lg:bg-[#F85559] py-5 lg:w-3/4 mx-auto my-10 rounded-full px-5">
+        <div class="lg:flex lg:items-center lg:justify-between">
+          <div class="flex justify-between items-center">
+            
+            <div class="hidden lg:contents">
+              <ul class="flex gap-4 text-white">
+                <li><a href="#hone">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Shop">Shop</a></li>
+                <li><a href="#Fruits">All Fruits</a></li>
+              </ul>
+            </div>
+            <div class="">
+                <div class="flex lg:hidden gap-2">
+                    <img src="./images/logo.png" alt="" />
+                    <h1 class="text-[40px] font-bold">
+                      AR <span class="text-4xl text-[#cf111179]">FRUIT-ZONE</span>
+                    </h1>
+                  </div>
+            </div>
+            <div class="dropdown ">
+                <label tabindex="0" class="  lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                      
+                </label>
+                <ul
+                  tabindex="0"
+                  class="flex flex-col gap-4 text-black dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 mr-52"
+                >
+                  <li><a href="#hone">Home</a></li>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Shop">Shop</a></li>
+                  <li><a href="#Fruits">All Fruits</a></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="hidden lg:flex items-center">
+            <div class="flex gap-2">
+              <img src="./images/logo.png" alt="" />
+              <h1 class="text-white text-[40px] font-bold">
+                AR <span class="text-4xl text-[#ffffffa4]">FRUIT-ZONE</span>
+              </h1>
+            </div>
+          </div>
+          <div class="navber-end lg:contents hidden">
+            <div class="relative">
+              <input
+                class="w-[200px] p-2 rounded-full"
+                placeholder="Search here"
+                type="text"
+              />
+              <button class="absolute right-[10%] top-[20%]">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
