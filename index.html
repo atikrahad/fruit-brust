@@ -34,6 +34,20 @@
       * {
         font-family: "Lato", sans-serif;
       }
+      
+      .g-a1{
+        grid-area: img;
+      }
+      .g-a2{
+        grid-area: a2;
+      }
+      .g-a3{
+        grid-area: a3;
+      }
+      .parent-grid-a{
+        grid-template-areas: "a2 img a3";
+      }
+      
     </style>
   </head>
   <body>
@@ -930,6 +944,121 @@
         </div>
       </section>
 
+
+      <!-- Why choose us -->
+
+      <section class="w-[90%] lg:w-3/4 mx-auto">
+        <div class=" lg:grid gap-3 lg:grid-cols-3">
+          
+          
+          
+          
+          <div class="space-y-3">
+
+            <div class="flex   gap-3">
+              <button class="btn rounded-full py-2 hover:bg-[#1212121a] bg-[#1212121a]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+              </button>
+              <div class="space-y-1">
+                <h1 class="text-2xl font-bold">Dedicated Team</h1>
+                <hr class="w-24">
+                <p>Professional employees are chooced fresh delicious fruits for you.</p>
+              </div>
+            </div>
+            <div class="flex  gap-3">
+              <button class=" rounded-full btn py-2 hover:bg-[#1212121a] bg-[#1212121a]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+              </button>
+              <div class="space-y-1">
+                <h1 class="text-2xl font-bold">Dedicated Team</h1>
+                <hr class="w-24">
+                <p>Professional employees are chooced fresh delicious fruits for you.</p>
+              </div>
+            </div>
+            <div class="flex  gap-3">
+              <button class="btn rounded-full py-2 hover:bg-[#1212121a] bg-[#1212121a]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+              </button>
+              <div class="space-y-1">
+                <h1 class="text-2xl font-bold">Dedicated Team</h1>
+                <hr class="w-24">
+                <p>Professional employees are chooced fresh delicious fruits for you.</p>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="lg:g-a1">
+            <img src="./images/whychoose1.png" alt="">
+          </div>
+
+          <div class="lg:g-a3">
+            
+            <div class="space-y-3">
+            
+              <div class="flex flex-row-reverse  gap-3">
+                <button class="btn rounded-full py-2 hover:bg-[#1212121a] bg-[#1212121a]">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                  </svg>
+                </button>
+                <div class="space-y-1 text-right">
+                  <h1 class="text-2xl font-bold">Dedicated Team</h1>
+                  <hr class="w-24 relative right-0">
+                  <p>Professional employees are chooced fresh delicious fruits for you.</p>
+                </div>
+              </div>
+              <div class="flex flex-row-reverse gap-3">
+                <button class=" rounded-full btn py-2 hover:bg-[#1212121a] bg-[#1212121a]">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                  </svg>
+                </button>
+                <div class="space-y-1 text-right">
+                  <h1 class="text-2xl font-bold">Dedicated Team</h1>
+                  <hr class="w-24">
+                  <p>Professional employees are chooced fresh delicious fruits for you.</p>
+                </div>
+              </div>
+              <div class="flex flex-row-reverse gap-3">
+                <button class="btn rounded-full py-2 hover:bg-[#1212121a] bg-[#1212121a]">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                  </svg>
+                </button>
+                <div class="space-y-1 text-right">
+                  <h1 class="text-2xl font-bold">Dedicated Team</h1>
+                  <hr class="w-24">
+                  <p>Professional employees are chooced fresh delicious fruits for you.</p>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- footer section  -->
+
+    <footer class="flex flex-col space-y-5 py-10 mt-10 justify-center items-center bg-[#121212]">
+      <div class="flex gap-2">
+        <img src="./images/logo.png" alt="" />
+        <h1 class="text-white text-[40px] font-bold">
+          AR <span class="text-4xl text-[#ff910079]">FRUIT</span>
+        </h1>
+      </div>
+      <div class="flex gap-5 text-white">
+        <a href="#Home">Home</a><a href="#About">About Us</a><a href="#Shop">Shop</a><a href="#Fruits">All Fruits</a><a href="#Support">Support</a><a href="#My Account">My Account</a>
+      </div>
+      <div class="flex gap-5 text-white text-3xl"><button><i class="fa-brands fa-twitter"></i></button><button><i class="fa-brands fa-instagram"></i></button><button><i class="fa-brands fa-facebook"></i></button><button><i class="fa-brands fa-linkedin"></i></button><button><i class="fa-brands fa-apple"></i></button></div>
+    </footer>
   </body>
 </html>
