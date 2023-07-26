@@ -119,6 +119,9 @@
 
       <section class="lg:w-3/4 w-[95%] mx-auto relative">
         <div class="carousel rounded-lg w-full">
+
+          <!-- slide 1 -->
+
           <div
             id="slide1"
             class="hero carousel-item h-[70vh] relative"
@@ -127,7 +130,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-lg">
-                <h1 class="mb-5 text-7xl text-white z-[1] font-bold">
+                <h1 class="mb-5 text-5xl lg:text-7xl text-white z-[1] font-bold">
                   Exotic tastes at your doorstep
                 </h1>
                 <p class="mb-5">We supply highly quality organic products</p>
@@ -145,6 +148,9 @@
               <a href="#slide2" class="btn rounded-full btn-neutral">❯</a>
             </div>
           </div>
+
+          <!-- slide 2 -->  
+          
           <div
             id="slide2"
             class="hero carousel-item h-[70vh] relative"
@@ -153,7 +159,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-lg">
-                <h1 class="mb-5 text-7xl text-white z-[1] font-bold">
+                <h1 class="mb-5 text-5xl lg:text-7xl text-white z-[1] font-bold">
                   Exotic tastes at your doorstep
                 </h1>
                 <p class="mb-5">We supply highly quality organic products</p>
@@ -171,6 +177,8 @@
               <a href="#slide3" class="btn rounded-full btn-neutral">❯</a>
             </div>
           </div>
+
+          <!-- slide 3 -->
           <div
             id="slide3"
             class="hero carousel-item h-[70vh] relative"
@@ -179,7 +187,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-lg">
-                <h1 class="mb-5 text-7xl text-white z-[1] font-bold">
+                <h1 class="mb-5 text-5xl lg:text-7xl text-white z-[1] font-bold">
                   Exotic tastes at your doorstep
                 </h1>
                 <p class="mb-5">We supply highly quality organic products</p>
@@ -197,6 +205,9 @@
               <a href="#slide4" class="btn rounded-full btn-neutral">❯</a>
             </div>
           </div>
+
+            <!-- slide 4 -->
+
           <div
             id="slide4"
             class="hero carousel-item h-[70vh] relative"
@@ -205,7 +216,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-lg">
-                <h1 class="mb-5 text-7xl text-white z-[1] font-bold">
+                <h1 class="mb-5 text-5xl lg:text-7xl text-white z-[1] font-bold">
                   Exotic tastes at your doorstep
                 </h1>
                 <p class="mb-5">We supply highly quality organic products</p>
@@ -226,8 +237,9 @@
         </div>
       </section>
 
-      <div
-        class="flex absolute top-[85%] left-[17.5%] justify-evenly px-5 py-3 rounded-lg bg-white w-[65%] mx-auto"
+      <div class="hidden lg:contents">
+        <div
+        class="flex absolute top-[85%] left-[17.5%]  justify-evenly px-5 py-3 rounded-lg bg-white w-[65%] mx-auto"
       >
         <div class="flex flex-col justify-center items-center">
           <img src="./images/fruit1.png" alt="" />
@@ -250,6 +262,7 @@
           <p>Pomegranate</p>
         </div>
       </div>
+      </div>
     </header>
 
     <!-- main section start------------- -->
@@ -257,9 +270,9 @@
     <main>
       <!-- deal of the day -->
 
-      <section class="my-32 lg:w-3/4 mx-auto">
-        <div class="flex justify-between items-center">
-          <div class="w-[50%]">
+      <section class="my-32 w-[90%] lg:w-3/4 mx-auto">
+        <div class="flex flex-col gap-10 lg:flex-row justify-between items-center">
+          <div class="lg:w-[50%] text-center lg:text-left space-y-3">
             <h1 class="text-[#121212] text-5xl font-black">Deal of the day</h1>
             <p class="text-[#12121299]">
               Contrary to popular belief, is not simply random text. It has
@@ -298,17 +311,20 @@
         <!-- deal of the day card  -->
 
         <div class="my-10 grid grid-cols-1 gap-4 lg:grid-cols-4">
+
+          <!-- card-1   -->
+
           <div class="card border-[1px] border-[#0000000a] rounded-md">
             <figure class="px-10 pt-10">
               <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
             </figure>
 
-            <div class="card-body space-y-4 items-center text-center">
-              <h2 class="text-3xl font-bold">12.90$ - 18.85$</h2>
-              <hr class="w-[80%]" />
+            <div class="flex justify-center flex-col space-y-4  items-center text-center">
+              <h2 class="text-[24px] font-bold">12.90$ - 18.85$</h2>
+              <hr class="lg:w-[80%] w-[50%]" />
               <p>Apples</p>
               <div>
-                <div class="rating rating-lg rating-half">
+                <div class="rating w-3/4 rating-lg rating-half">
                   <input type="radio" name="rating-10" class="rating-hidden" />
                   <input
                     type="radio"
@@ -438,17 +454,20 @@
               </div>
             </div>
           </div>
+
+          <!-- card-2   -->
+
           <div class="card border-[1px] border-[#0000000a] rounded-md">
-            <figure class="px-10 pt-10">
+            <figure class="px-10 pt-[33px]">
               <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
             </figure>
 
-            <div class="card-body space-y-4 items-center text-center">
-              <h2 class="text-3xl font-bold">12.90$ - 18.85$</h2>
-              <hr class="w-[80%]" />
+            <div class="flex mb-5 justify-center flex-col space-y-4  items-center text-center">
+              <h2 class="text-[24px] font-bold">12.90$ - 18.85$</h2>
+              <hr class="lg:w-[80%] w-[50%]" />
               <p>Orenge</p>
               <div>
-                <div class="rating rating-lg rating-half">
+                <div class="rating w-3/4 rating-lg rating-half">
                   <input type="radio" name="rating-10.3" class="rating-hidden" />
                   <input
                     type="radio"
@@ -578,17 +597,20 @@
               </div>
             </div>
           </div>
+
+          <!-- card-3   -->
+
           <div class="card border-[1px] border-[#0000000a] rounded-md">
             <figure class="px-10 pt-10">
               <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
             </figure>
 
-            <div class="card-body space-y-4 items-center text-center">
-              <h2 class="text-3xl font-bold">12.90$ - 18.85$</h2>
-              <hr class="w-[80%]" />
+            <div class="flex justify-center flex-col space-y-4  items-center text-center">
+              <h2 class="text-[24px] font-bold">12.90$ - 18.85$</h2>
+              <hr class="lg:w-[80%] w-[50%]" />
               <p>Red Dragon</p>
               <div>
-                <div class="rating rating-lg rating-half">
+                <div class="rating w-3/4 rating-lg rating-half">
                   <input type="radio" name="rating-10.5" class="rating-hidden" />
                   <input
                     type="radio"
@@ -718,17 +740,20 @@
               </div>
             </div>
           </div>
+
+          <!-- card-4   -->
+
           <div class="card border-[1px] border-[#0000000a] rounded-md">
             <figure class="px-10 pt-10">
               <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
             </figure>
 
-            <div class="card-body space-y-4 items-center text-center">
-              <h2 class="text-3xl font-bold">12.90$ - 18.85$</h2>
-              <hr class="w-[80%]" />
+            <div class="flex justify-center flex-col space-y-4  items-center text-center">
+              <h2 class="text-[24px] font-bold">12.90$ - 18.85$</h2>
+              <hr class="lg:w-[80%] w-[50%]" />
               <p>Banana</p>
               <div>
-                <div class="rating rating-lg rating-half">
+                <div class="rating w-3/4 rating-lg rating-half">
                   <input type="radio" name="rating-10.7" class="rating-hidden" />
                   <input
                     type="radio"
@@ -859,7 +884,13 @@
             </div>
           </div>
         </div>
+
+        <div class="flex justify-center py-10 items-center">
+          <button class="btn text-white bg-[#F85559] hover:bg-[#F85559]">Shop All</button>
+        </div>
       </section>
+
+
     </main>
   </body>
 </html>
